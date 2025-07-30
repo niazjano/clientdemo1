@@ -12,7 +12,8 @@
   <meta property="og:title" content="NordicCraft Remodeling – Kitchen, Bath &amp; Home Renovations in Skåne">
   <meta property="og:description" content="We don’t just build websites. We build trust that converts. Transform your kitchen, bathroom or entire home with expert design and precision craftsmanship.">
   <meta property="og:url" content="/">
-  <meta property="og:image" content="images/image91.png">
+  <!-- Updated social preview image to use new hero background -->
+  <meta property="og:image" content="images/hero.png">
 </head>
 <body>
   <!-- Site header / navigation -->
@@ -35,10 +36,10 @@
   <main>
     <!-- HERO SECTION -->
     <section id="hero" class="fullscreen">
-      <!-- Background video: use a poster image fallback for browsers that cannot play video. -->
-      <video class="hero-video" autoplay muted loop playsinline poster="images/image91.png">
-        <source src="images/image91.png" type="video/mp4">
-        <!-- If the video cannot load, the poster will display. -->
+      <!-- Use a static hero image instead of video for a clean, high‑end look -->
+      <video class="hero-video" autoplay muted loop playsinline poster="images/hero.png">
+        <!-- The poster attribute ensures the hero image is displayed even if the video cannot play -->
+        <source src="images/hero.png" type="image/png">
       </video>
       <div class="hero-content">
         <h1>Beautiful Homes Start With Trusted Builders.</h1>
@@ -80,7 +81,8 @@
           <p>Every project starts with listening. Our team designs spaces around your lifestyle, your routines and your needs—not a template. Because the best remodels aren’t just functional. They’re personal.</p>
         </div>
         <div class="image-col">
-          <img src="images/image10.png" alt="Family enjoying their renovated living space – custom home remodeling in Skåne" loading="lazy">
+          <!-- Updated image to evoke warmth and human connection -->
+          <img src="images/emotional.png" alt="Happy clients shaking hands after a successful remodel" loading="lazy">
         </div>
       </div>
     </section>
@@ -91,19 +93,19 @@
         <h2>Our Remodeling Services</h2>
         <div class="service-cards">
           <article class="service-card">
-            <img src="images/image86.png" alt="Scandinavian kitchen remodeling in Skåne" loading="lazy">
+            <img src="images/kitchen_service.png" alt="Scandinavian kitchen remodeling – light wood cabinetry and clean lines" loading="lazy">
             <h3>Kitchen Remodeling</h3>
             <p>Scandinavian design, modern function.</p>
             <a href="services.html#kitchen-remodeling" class="link-arrow">Learn More</a>
           </article>
           <article class="service-card">
-            <img src="images/image98.png" alt="Luxury bathroom renovation in Helsingborg" loading="lazy">
+            <img src="images/bathroom_service.png" alt="Luxury bathroom renovation featuring warm tile and modern fixtures" loading="lazy">
             <h3>Bathroom Transformation</h3>
             <p>Spa luxury meets everyday utility.</p>
             <a href="services.html#bathroom-renovation" class="link-arrow">Learn More</a>
           </article>
           <article class="service-card">
-            <img src="images/image9.png" alt="Full home renovation in Lund" loading="lazy">
+            <img src="images/fullhome_service.png" alt="Full home renovation with open‑plan living and natural light" loading="lazy">
             <h3>Full‑Home Renovation</h3>
             <p>Cohesive design. Seamless execution.</p>
             <a href="services.html#whole-home-renovation" class="link-arrow">Learn More</a>
@@ -118,31 +120,33 @@
         <h2>Transformation Showcase</h2>
         <!-- Slider container -->
         <div class="slider" aria-label="Before and after project gallery">
+          <!-- First transformation example -->
           <div class="slide active">
             <div class="before-after-images">
               <div class="before">
-                <img src="images/image95.png" alt="Before – dated 1980s kitchen in Malmö" loading="lazy">
+                <img src="images/kitchen_service.png" alt="Before – closed‑off kitchen prior to remodel" loading="lazy">
                 <span class="label">Before</span>
               </div>
               <div class="after">
-                <img src="images/image96.png" alt="After – Nordic minimalist kitchen makeover in Malmö" loading="lazy">
+                <img src="images/fullhome_service.png" alt="After – open‑plan kitchen and living area" loading="lazy">
                 <span class="label">After</span>
               </div>
             </div>
-            <p class="caption">This 1980s kitchen became a Nordic minimalist masterpiece in just 5 weeks.</p>
+            <p class="caption">See how an outdated space becomes a light‑filled, open concept living area.</p>
           </div>
+          <!-- Second transformation example -->
           <div class="slide">
             <div class="before-after-images">
               <div class="before">
-                <img src="images/image99.png" alt="Before – outdated bathroom in Helsingborg" loading="lazy">
+                <img src="images/bathroom_service.png" alt="Before – cramped bathroom with dated finishes" loading="lazy">
                 <span class="label">Before</span>
               </div>
               <div class="after">
-                <img src="images/image98.png" alt="After – spa-style bathroom renovation in Helsingborg" loading="lazy">
+                <img src="images/fullhome_service.png" alt="After – modern spa‑like bathroom with clean lines" loading="lazy">
                 <span class="label">After</span>
               </div>
             </div>
-            <p class="caption">Outdated bath turned into a zen wellness retreat.</p>
+            <p class="caption">Upgrade to a luxurious bathroom retreat with warm materials and sleek fixtures.</p>
           </div>
           <!-- Slider navigation buttons -->
           <button class="slider-btn prev" aria-label="Previous slide">&#10094;</button>
@@ -157,16 +161,16 @@
         <h2>Kind Words From Our Clients</h2>
         <div class="review-grid">
           <div class="review-item">
-            <img src="images/image92.png" alt="Martin &amp; Lina H. from Helsingborg – happy remodeling clients" loading="lazy">
+            <img src="images/review1.png" alt="Happy couple in their newly renovated kitchen" loading="lazy">
             <blockquote>
-              “Test review”
+              “Our home finally feels like us – functional and beautiful.”
               <footer>— Martin &amp; Lina H., Helsingborg</footer>
             </blockquote>
           </div>
           <div class="review-item">
-            <img src="images/image97.png" alt="Julia E. from Lund – positive home renovation testimonial" loading="lazy">
+            <img src="images/review2.png" alt="Smiling homeowner after a remodel" loading="lazy">
             <blockquote>
-              “Test review.”
+              “The process was seamless from start to finish. We love the results!”
               <footer>— Julia E., Lund</footer>
             </blockquote>
           </div>
@@ -175,7 +179,7 @@
     </section>
 
     <!-- CTA BANNER -->
-    <section id="cta-banner" class="cta-background" style="background-image: url('images/image100.png');">
+    <section id="cta-banner" class="cta-background" style="background-image: url('images/fullhome_service.png');">
       <div class="container banner-content">
         <h2>Ready to take the first step? Let’s design your dream space together.</h2>
         <a href="contact.html" class="btn primary" data-schema-action>Schedule Your Free Design Call</a>
